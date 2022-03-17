@@ -3,5 +3,6 @@ let playerOptions = ['rock',
     'scissors']
 function computerPlay() {
     return playerOptions[Math.floor(Math.random() * playerOptions.length)];
-}
+};
+let playerSelection = prompt('Make your choice: Rock, Paper or Scissors');
 console.log(computerPlay());
